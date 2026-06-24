@@ -9,3 +9,4 @@ MYSQL_HOST: mysql-"{{ env }}".lokeshinfo.online
 SHIPPING_HOST: shipping-"{{ env }}".lokeshinfo.online
 RABBITMQ_HOST: rabbitmq-"{{ env }}".lokeshinfo.online
 PAYMENT_HOST: payment-"{{ env }}".lokeshinfo.online
+app_version: v3
