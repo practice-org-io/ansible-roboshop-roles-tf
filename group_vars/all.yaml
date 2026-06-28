@@ -1,12 +1,12 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-"{{ env }}".lokeshinfo.online
-CATALOGUE_HOST: catalogue-"{{ env }}".lokeshinfo.online
-REDIS_HOST: redis-"{{ env }}".lokeshinfo.online
-USER_HOST: user-"{{ env }}".lokeshinfo.online
-CART_HOST: cart-"{{ env }}".lokeshinfo.online
-MYSQL_HOST: mysql-"{{ env }}".lokeshinfo.online
-SHIPPING_HOST: shipping-"{{ env }}".lokeshinfo.online
-RABBITMQ_HOST: rabbitmq-"{{ env }}".lokeshinfo.online
-PAYMENT_HOST: payment-"{{ env }}".lokeshinfo.online
+MONGODB_HOST: mongodb-{{ env }}.lokeshinfo.online
+REDIS_HOST: redis-{{ env }}.lokeshinfo.online
+MYSQL_HOST: mysql-{{ env }}.lokeshinfo.online
+RABBITMQ_HOST: rabbitmq-{{ env }}.lokeshinfo.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.lokeshinfo.online
+USER_HOST: user-{{ env }}.lokeshinfo.online
+CART_HOST: cart.backend-alb-{{ env }}.lokeshinfo.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.lokeshinfo.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.lokeshinfo.online
 app_version: v3
