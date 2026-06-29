@@ -5,7 +5,7 @@ REDIS_HOST: redis-{{ env }}.lokeshinfo.online
 MYSQL_HOST: mysql-{{ env }}.lokeshinfo.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.lokeshinfo.online
 CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.lokeshinfo.online
-USER_HOST: user-{{ env }}.lokeshinfo.online
+USER_HOST: user.backend-alb-{{ env }}.lokeshinfo.online
 CART_HOST: cart.backend-alb-{{ env }}.lokeshinfo.online
 SHIPPING_HOST: shipping.backend-alb-{{ env }}.lokeshinfo.online
 PAYMENT_HOST: payment.backend-alb-{{ env }}.lokeshinfo.online

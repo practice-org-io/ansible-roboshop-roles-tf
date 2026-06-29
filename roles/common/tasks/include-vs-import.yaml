@@ -10,6 +10,6 @@
   ansible.builtin.debug:
     msg: "Hi from MSG-2"
 
-- name: message-3
+- name: message-1
   ansible.builtin.debug:
     msg: "Hi from MSG-3"
